@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  color: white;
+  background-color: #121725;
+}
+
+.title {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.text-body {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #c2cbe5;
+}
+
+/* style button */
+button {
+  color: #121725;
+  background-color: #54e6af;
+  box-shadow: 0px 25px 20px -20px #54e6af33;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+button:hover {
+  background-color: #b3ffe2;
+  box-shadow: 0px 25px 20px -20px #54e6af33;
+}
+
+/* style form input */
+input {
+  width: 350px;
+  height: 56px;
+  opacity: 0.5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  background: #2c344b;
+  border: 28px;
+}
+
+input:focus {
+  opacity: 1px;
+  color: #ffffff;
+}
+
+.error-message {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.28px;
+  text-align: left;
+  color: #fb3e3e;
+  margin: 8px;
+}
+
+
+/* style desktop */
+
+/* style tab */
+
+/* style mobile */
