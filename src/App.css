@@ -14,7 +14,7 @@ body {
 }
 nav{
   margin-top: 102px;
-  margin-left: 165px;
+  margin-left: 11.46%;
 }
 nav img {
   width: 134.85px;
@@ -25,7 +25,7 @@ main {
   display: flex;
   flex-direction: row;
   margin-top: -28px;
-  padding-left: 165px;
+  padding-left: 11.46%;
 }
 
 .combined-shapes {
@@ -39,7 +39,7 @@ main {
 }
 
 .hero-text {
-  width: 723px;
+  width: 50.2vw;
   height: 509px;
   margin-top: 127px;
   z-index: 9999;
@@ -54,7 +54,7 @@ h1 {
   line-height: 62px;
   text-align: left;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 h1 span {
@@ -68,7 +68,7 @@ p {
   line-height: 28px;
   font-weight: 300;
   color: #c2cbe5;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 form {
@@ -77,7 +77,7 @@ form {
   align-items: center;
   width: 427px;
   height: 56px;
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
 }
 /* style form input */
 input {
@@ -146,20 +146,15 @@ ul li{
 
 .hero-img {
   position: absolute;
-  width: 888px;
+  width: 61.667vw;
   height: 640px;
   top: 130px;
   right: 0;
   z-index: 2;
   background-image: url("src/assets/Bitmap.png");
+  background-size: cover;
+  background-position: top right;
 }
-
-/* .hero-img img {
-  width: 962px;
-  height: 640px;
-  left: -60px;
-  z-index: 1;
-} */
 
 /* style desktop */
 
