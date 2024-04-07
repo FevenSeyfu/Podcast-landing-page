@@ -31,7 +31,7 @@ function App() {
           </div>
         </section>
         <section className="hero-img">
-          <img src="src/assets/Bitmap.png" alt="" />
+          {/* <img src="src/assets/Bitmap.png" alt="" /> */}
         </section>
         
       </main>
