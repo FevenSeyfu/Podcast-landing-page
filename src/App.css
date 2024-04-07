@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap");
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
   padding: 0;
   margin: 0;
@@ -15,21 +10,65 @@ body {
   color: white;
   background-color: #121725;
 }
+nav img {
+  position:  absolute;
+  width: 134.85px;
+  height: 56px;
+  top: 102px;
+  left: 165px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  width: 1275px;
+  height: 640px;
+  top: 130px;
+  left: 165px;
+  position: relative;
+}
 
-.title {
+.combined-shapes {
+  position: absolute;
+  content: url("src/assets/Combined Shape.png");
+  width: 232px;
+  height: 104px;
+  top: 718px;
+  left: 1208px;
+}
+
+.hero-text {
+  width: 723px;
+  height: 509px;
+  margin-top: 261px;
+  left: 165px;
+  z-index: 2;
+  background: #121725;
+
+}
+
+h1 {
   font-size: 52px;
   line-height: 62px;
   font-weight: 300;
   text-transform: uppercase;
 }
 
-.text-body {
+p {
   font-size: 18px;
   line-height: 28px;
   font-weight: 300;
   color: #c2cbe5;
 }
 
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 427px;
+  height: 56px;
+  top: 621px;
+  left: 165px;
+}
 /* style button */
 button {
   color: #121725;
@@ -38,6 +77,9 @@ button {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
+  width: 162px;
+  height: 46px;
+  text-align: center;
 }
 
 button:hover {
@@ -73,6 +115,27 @@ input:focus {
   margin: 8px;
 }
 
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-img {
+  width: 888px;
+  height: 640px;
+  top: 130px;
+  left: 552px;
+  z-index: 1;
+}
+
+.hero-img img {
+  width: 962px;
+  height: 640px;
+  left: -60px;
+  gap: 0px;
+  opacity: 0px;
+}
 
 /* style desktop */
 
