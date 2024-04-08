@@ -28,16 +28,6 @@ main {
   padding-left: 11.46%;
 }
 
-.combined-shapes {
-  position: absolute;
-  content: url("src/assets/Combined Shape.png");
-  width: 232px;
-  height: 104px;
-  top: 718px;
-  right: 0;
-  z-index: 9999;
-}
-
 .hero-text {
   width: 50.2vw;
   height: 509px;
@@ -156,19 +146,55 @@ ul li{
   background-position: top right;
 }
 
+.combined-shapes {
+  position: absolute;
+  content: url("src/assets/Combined Shape.png");
+  width: 232px;
+  height: 104px;
+  top: 718px;
+  right: 0;
+  z-index: 9999;
+}
 /* style desktop */
 
 /* style tab */
 @media (min-width: 375px) and (max-width: 768px) {
+
   nav{
     margin-top: 50px;
-    margin-left: 5.08%;
+    margin-left: 39px;
   }
-  .hero-img {
-    width: 61.667vw;
+  nav img{
+    width: 134.85px;
+    height: 56px;
+  }
+  main{
+    margin: 0;
+    padding: 0;
+  }
+  .hero-text{
+    width: 635px;
+    margin: 152px 0 0 39px;
+    padding: 93px 0 0 0;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 1.9rem;
+  }
+
+  .hero-img{
+    width: 491px;
     height: 767px;
     top: 0;
     right: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  .combined-shapes {
+    top: 920px;
+    left: 30px;
   }
 }
 /* style mobile */
