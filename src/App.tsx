@@ -17,7 +17,7 @@ function App() {
             your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
             Casts and more!
           </p>
-          <div>
+          <div className="form-testimonial">
             <form>
               <input type="text"  placeholder="Email address"/>
               <button> Request Access</button>
