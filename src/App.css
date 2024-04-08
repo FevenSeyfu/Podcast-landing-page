@@ -159,5 +159,16 @@ ul li{
 /* style desktop */
 
 /* style tab */
-
+@media (min-width: 375px) and (max-width: 768px) {
+  nav{
+    margin-top: 50px;
+    margin-left: 5.08%;
+  }
+  .hero-img {
+    width: 61.667vw;
+    height: 767px;
+    top: 0;
+    right: 0;
+  }
+}
 /* style mobile */
