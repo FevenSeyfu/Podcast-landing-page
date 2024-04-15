@@ -21,7 +21,7 @@ function App() {
           <div className="form-testimonial">
             <SignupForm />
             <ul>
-              <li><img src="src/assets/Spotify_logo_with_text.png" alt="" /></li>
+              <li><img src="./assets/Spotify_logo_with_text.png" alt="" /></li>
               <li><img src="src/assets/Apple_podcast.png" alt="" /></li>
               <li><img src="src/assets/GooglePodcast.png" alt="" /></li>
               <li><img src="src/assets/PocketCasts.png" alt="" /></li>
