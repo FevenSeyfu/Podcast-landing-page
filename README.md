@@ -1,5 +1,5 @@
 
-<img alt"Project-Demo" src="pod-request-demo.png">
+![Project-Demo](https://github.com/FevenSeyfu/Podcast-landing-page/blob/main/pod-request-demo.png)
 # Podcast Request Landing Page
 
 ## Table of contents
