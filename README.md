@@ -1,8 +1,6 @@
 
-![Project Demo]()
+<img alt"Project-Demo" src="pod-request-demo.png">
 # Podcast Request Landing Page
-
-This is a solution to the 
 
 ## Table of contents
 
