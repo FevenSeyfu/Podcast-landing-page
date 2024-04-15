@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <nav>
-        <img src="../assets/Logo.png" alt="Pod Logo" />
+        <img src="./assets/Logo.png" alt="Pod Logo" />
       </nav>
       <main>
         <section className="hero-text">
