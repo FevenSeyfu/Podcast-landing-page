@@ -12,6 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 nav {
   margin-top: 102px;
   margin-left: 11.46%;
@@ -67,7 +68,6 @@ form {
   align-items: center;
   width: 427px;
   height: 56px;
-  margin-bottom: 4rem;
 }
 /* style form input */
 input {
@@ -95,7 +95,7 @@ input:focus {
   line-height: 14.28px;
   text-align: left;
   color: #fb3e3e;
-  margin: 8px;
+  margin: 0.5rem 34px;
 }
 
 /* style button */
@@ -153,7 +153,6 @@ ul li {
   right: 0;
   z-index: 9999;
 }
-/* style desktop */
 
 /* style tab */
 @media (min-width: 375px) and (max-width: 768px) {

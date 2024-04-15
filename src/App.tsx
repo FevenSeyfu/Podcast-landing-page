@@ -1,4 +1,5 @@
 import "./App.css";
+import SignupForm from "./Components/SignupForm";
 
 function App() {
   return (
@@ -18,10 +19,7 @@ function App() {
             Casts and more!
           </p>
           <div className="form-testimonial">
-            <form>
-              <input type="text"  placeholder="Email address"/>
-              <button> Request Access</button>
-            </form>
+            <SignupForm />
             <ul>
               <li><img src="src/assets/Spotify_logo_with_text.png" alt="" /></li>
               <li><img src="src/assets/Apple_podcast.png" alt="" /></li>
