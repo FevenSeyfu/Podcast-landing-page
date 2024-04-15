@@ -139,14 +139,14 @@ ul li {
   top: 130px;
   right: 0;
   z-index: 2;
-  background-image: url("src/assets/Bitmap.png");
+  background-image: url("/src/assets/Bitmap.png");
   background-size: cover;
   background-position: top right;
 }
 
 .combined-shapes {
   position: absolute;
-  content: url("src/assets/Combined Shape.png");
+  content: url("/src/assets/Combined Shape.png");
   width: 232px;
   height: 104px;
   top: 718px;
@@ -198,7 +198,7 @@ ul li {
   body {
     width: 100vw;
     height: 100vh;
-    background-image: url("src/assets/Bitmap.png");
+    background-image: url("/src/assets/Bitmap.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <nav>
-        <img src="../assets/Logo.png" alt="Pod Logo" />
+        <img src="/src/assets/Logo.png" alt="Pod Logo" />
       </nav>
       <main>
         <section className="hero-text">
@@ -22,9 +22,9 @@ function App() {
             <SignupForm />
             <ul>
               <li><img src="../assets/Spotify_logo_with_text.png" alt="" /></li>
-              <li><img src="src/assets/Apple_podcast.png" alt="" /></li>
-              <li><img src="src/assets/GooglePodcast.png" alt="" /></li>
-              <li><img src="src/assets/PocketCasts.png" alt="" /></li>
+              <li><img src="/src/assets/Apple_podcast.png" alt="" /></li>
+              <li><img src="/src/assets/GooglePodcast.png" alt="" /></li>
+              <li><img src="/src/assets/PocketCasts.png" alt="" /></li>
             </ul>
           </div>
         </section>
